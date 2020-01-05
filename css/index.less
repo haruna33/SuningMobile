@@ -1,0 +1,47 @@
+//首页样式
+@import "common"; /*导入common.less*/
+@base: 50;
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  width: 15rem;
+  line-height: 1.5;
+  background: #f2f2f2;
+  font-family: Arial, Helvetica;
+}
+
+.search {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
+  height: 88 / 50rem;
+  background: #ffdb47;
+
+  .classify {
+    width: 44rem / @base;
+    height: 70rem / @base;
+
+    margin: 11rem / @base 25rem / @base 7rem / @base 24rem / @base;
+
+  }
+  .searchbox{
+    flex: 1;
+    background:#ccc;
+  }
+  .login{
+    height: 70rem / @base;
+    width: 75rem / @base;
+    margin: 10rem / @base;
+
+    text-align: center;
+    img{
+
+    }
+  }
+}
+
+
+
